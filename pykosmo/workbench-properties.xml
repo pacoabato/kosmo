@@ -1,0 +1,5 @@
+<workbench>
+<!--    <plug-in>org.saig.jump.plugin.python.PythonInterpreterPlugIn</plug-in>    -->
+<!--    <plug-in>org.saig.jump.plugin.python.RepeatPythonScriptPlugIn</plug-in>     -->
+<plug-in>org.saig.jump.python.plugin.PythonInterpreterExtension</plug-in>
+</workbench>

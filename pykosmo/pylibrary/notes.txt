@@ -1,0 +1,13 @@
+Funciona con jython 2.2.1. Con jython 2.5.1 falla al intentar hacer "import os" (en pyk.py).
+
+
+
+La consola de comandos no ejecuta los finally (dice que la sintaxis no es válida).
+Por ejemplo con:
+
+try:
+    a = 1 / 0
+except:
+    print ('execption')
+finally:
+    print('fin')
